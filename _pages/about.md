@@ -15,16 +15,13 @@ I obtained my B.S. at Texas Christian University.
 
 News
 ======
-* [Dec 2024]
-  * Two papers accepted to AAAI'25
-* [Sep 2024]
-  * Paper accepted to NeurIPS'24
-* [Jul 2024]
-  * Participated in UD ATOM Hackathon
-  * Paper accepted to CIKM'24
-* [Jul 2023]
-  * Participated in UD DS + AI Hackathon
-  * Paper accepted to CVIU'23, Volume 235
+* [Jun 2025] Joining Fujitsu Research of America as Research Intern
+* [Dec 2024] Two papers accepted to AAAI'25
+* [Sep 2024] Paper accepted to NeurIPS'24
+* [Jul 2024] Participated in UD ATOM Hackathon
+* [Jul 2024] Paper accepted to CIKM'24
+* [Jul 2023] Participated in UD DS + AI Hackathon
+* [Jul 2023] Paper accepted to CVIU'23, Volume 235
 
 What I'm Working On
 ======

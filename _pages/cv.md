@@ -66,7 +66,7 @@ Teaching
 Service
 ======
 * Reviewers
-  * BMVC'24, CIKM'24, NeurIPS'25
+  * BMVC'24, CIKM'24, ICCV'25, NeurIPS'25
 
 Leadership
 ======
