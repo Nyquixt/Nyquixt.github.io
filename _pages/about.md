@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of Computer & Information Sciences at University of Delaware, where I work with [Prof. Ilya Safro](https://www.eecis.udel.edu/~isafro/index.html) in the [Algorithms, AI & Computational Science Lab](https://safroresearch.blogspot.com/).
+I am a Ph.D. student in the Department of Computer & Information Sciences at University of Delaware, where I work with [Prof. Ilya Safro](https://www.eecis.udel.edu/~isafro/index.html) in the [Algorithms, AI & Computational Science Lab](https://safroresearch.blogspot.com/). I am currently a Research Intern at Fujitsu Research Quantum Lab.
 
 My current research focus involves Machine Learning for Quantum Computing. Before working on ML for QC, I focused on Safety-aware and Robust AI modeling. (I just switched to ML for QC in Jan 2025, so bear with me on the long journey ahead!)
 
@@ -15,7 +15,7 @@ I obtained my B.S. at Texas Christian University.
 
 News
 ======
-* [Jun 2025] Joining Fujitsu Research of America Quantum Lab as Research Intern
+* [Jun 2025] Joined Fujitsu Research of America Quantum Lab as Research Intern
 * [Dec 2024] Two papers accepted to AAAI'25
 * [Sep 2024] Paper accepted to NeurIPS'24
 * [Jul 2024] Participated in UD ATOM Hackathon
