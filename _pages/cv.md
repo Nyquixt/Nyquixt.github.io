@@ -17,7 +17,7 @@ Education
 Research Experience
 ======
 * Research Assistant (AACS Lab, UDelaware. Jan 2025 - Present)
-  * QAOA Parameter Transferability from MaxCut to MIS (in submission, [preprint](https://arxiv.org/abs/2504.10733))
+  * QAOA Parameter Transferability from MaxCut to MIS [[QCE'25](https://arxiv.org/abs/2504.10733)]
 
 * Research Assistant (Deep-REAL, UDelaware. Aug 2021 - Dec 2024)
   * Continual Test-Time Adaptation [[CIKM'24](https://arxiv.org/abs/2407.12240)]
@@ -66,7 +66,7 @@ Teaching
 Service
 ======
 * Reviewers
-  * BMVC'24, CIKM'24, ICCV'25, NeurIPS'25
+  * BMVC'24, CIKM'24, ICCV'25, BMVC'25, QCE'25, NeurIPS'25
 
 Leadership
 ======

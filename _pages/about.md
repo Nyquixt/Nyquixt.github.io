@@ -15,6 +15,7 @@ I obtained my B.S. at Texas Christian University.
 
 News
 ======
+* [Jul 2025] Paper accepted to QCE'25
 * [Jun 2025] Joined Fujitsu Research of America Quantum Lab as Research Intern
 * [Dec 2024] Two papers accepted to AAAI'25
 * [Sep 2024] Paper accepted to NeurIPS'24
@@ -35,7 +36,7 @@ Selected Publications
 ======
 <u><b>Quantum Era</b></u>
 
-* [Cross-Problem Parameter Transferability in Quantum Approximate Optimization Algorithm: A Machine Learning Approach](http://nyquixt.github.io/files/qce25-paper.pdf). <b>Kien X. Nguyen</b>, Bao Bach, and Ilya Safro. <i>Preprint</i>.
+* [Cross-Problem Parameter Transferability in Quantum Approximate Optimization Algorithm: A Machine Learning Approach](http://nyquixt.github.io/files/qce25-paper.pdf). <b>Kien X. Nguyen</b>, Bao Bach, and Ilya Safro. <i>In Proceedings of the IEEE Quantum Computing and Engineering</i>, 2025.
 
 <u><b>Pre-Quantum Era</b></u>
 
