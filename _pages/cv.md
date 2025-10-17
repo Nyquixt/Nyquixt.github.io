@@ -32,6 +32,12 @@ Research Experience
   
 Work Experience
 ======
+* Research Intern (Fujitsu Research, Oct 2025-Present)
+  * Quantum Computing for Unit Commitment (work in progress)
+
+* Research Intern (Fujitsu Research, Jun 2025-Aug 2025)
+  * Machine Learning for Qubit Routing (work in progress)
+
 * Back-end Developer (TCU, Jun 2019 - May 2021)
   * [EurekaLabs](https://eurekalabs.net) is a hands on security learning platform that assisted students with open-source, easy-to-use and hands-on cybersecurity materials. It has attracted around 70K views on lab materials.
   * I developed and maintained the website for a while.
