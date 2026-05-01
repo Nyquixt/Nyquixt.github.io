@@ -17,6 +17,7 @@ Education
 Research Experience
 ======
 * Research Assistant (AACS Lab, UDelaware. Jan 2025 - Present)
+  * Graph-conditioned Meta-Optimizer for QAOA Parameter Generation
   * QAOA Parameter Transferability from MaxCut to MIS [[QCE'25](https://arxiv.org/abs/2504.10733)]
 
 * Research Assistant (Deep-REAL, UDelaware. Aug 2021 - Dec 2024)
@@ -32,7 +33,10 @@ Research Experience
   
 Work Experience
 ======
-* Research Intern (Fujitsu Research, Oct 2025-Present)
+* Research Aide (Argonne National Laboratory, Apr 2026-Present)
+  * Distributed Quantum Compilation (work in progress)
+
+* Research Intern (Fujitsu Research, Oct 2025-Mar 2026)
   * Quantum Computing for Unit Commitment (work in progress)
 
 * Research Intern (Fujitsu Research, Jun 2025-Aug 2025)
@@ -72,7 +76,7 @@ Teaching
 Service
 ======
 * Reviewers
-  * BMVC'24, CIKM'24, ICCV'25, BMVC'25, QCE'25, NeurIPS'25
+  * BMVC'24, CIKM'24, ICCV'25, BMVC'25, QCE'25, NeurIPS'25, QCE'25, AAAI'26, TQE'26, TAI'26, NeurIPS'26, ECML'26
 
 Leadership
 ======

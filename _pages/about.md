@@ -7,14 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the Department of Computer & Information Sciences at University of Delaware, where I work with [Prof. Ilya Safro](https://www.eecis.udel.edu/~isafro/index.html) in the [Algorithms, AI & Computational Science Lab](https://safroresearch.blogspot.com/). I am currently a Research Intern at Fujitsu Research Quantum Lab.
+I am a Ph.D. student in the Department of Computer & Information Sciences at University of Delaware, where I work with [Prof. Ilya Safro](https://www.eecis.udel.edu/~isafro/index.html) in the [Algorithms, AI & Computational Science Lab](https://safroresearch.blogspot.com/). I am currently a Research Aide at Argonne National Laboratory.
 
-My current research involves Machine Learning for Quantum Computing, specifically on Quadratic Unconstrained Combinatorial Optimization, Qubit Routing Problem and Unit Commitment Problem. Before working on Quantum, I focused on Safety-aware and Robust AI modeling. (I made the switch in Jan 2025).
+:microscope: My current research involves machine learning for quantum computing, specifically on combinatorial optimization, quantum compilation, with applications in power systems (i.e. unit commitment). Before working on quantum computing, I focused on safety-aware and robust AI modeling. (I made the switch in Jan 2025).
 
-I obtained my B.S. at Texas Christian University.
+:mortar_board: I obtained my B.S. at Texas Christian University.
 
 News
 ======
+* [Apr 2026] Joined Argonne National Lab as Research Aide
+* [Mar 2026] Passed Qualifying Exam :tada:
 * [Oct 2025] Rejoined Fujitsu Research of America Quantum Lab as Research Intern
 * [Jul 2025] Paper accepted to QCE'25
 * [Jun 2025] Joined Fujitsu Research of America Quantum Lab as Research Intern
@@ -30,15 +32,24 @@ What I'm Working On
 ![title image](http://nyquixt.github.io/images/title.png "Title")
 
 My current research focuses on developing machine learning techniques to improve the quantum computing stack.
-- **Parameter transferability in the Quantum Approximate Optimization Algorithm (QAOA).** A key challenge in scaling QAOA lies in finding good variational parameters, especially for large problem instances where quantum resources are limited. My goal is to build machine learning models that can learn transferable patterns from small problem instances and generalize them to significantly larger ones, effectively minimizing expensive optimization and circuit evaluations.
-- **Qubit Routing.** To be updated...
-- **Unit Commitment.** To be updated...
+- **Cross-Problem Setting for Quantum Approximate Optimization Algorithm (QAOA)**
+  - *Parameter transferability in QAOA.* A key challenge in scaling QAOA lies in finding good variational parameters, especially for hard instances. The goal is to build machine learning models that can learn transferable patterns from simple problem instances (i.e. from native unconstrained MaxCut) and generalize them to harder ones (i.e. constrained MIS), effectively minimizing expensive optimization.
+  - *Problem-aware Graph Representation.* To aid the parameter generation for quantum circuit, a meaningful, problem-aware graph embedding is required to condition the machine learning meta-learner. The generalized Quadratic Programming formulation is used to generate a heterogeneous graph as the input to a HeteroGNN that learns to minimize the QP surrogate loss via unsupervised learning.
+  - *Cross-Problem Parameter Generation for QAOA.* A meta-optimizer is trained to predict parameter trajectory for a QAOA circuit, conditioned on the problem-aware graph embedding. It is observed to achieve better performance that unconditioned meta-optimizer that often collapse to near-identical trajectories across instances.
+- **Quantum Compilation**
+  - *Qubit Routing on Quantum Device.* [Work in Progress...]
+  - *Qubit Assignment & Scheduling on Distributed Quantum Device.* [Work in Progress...]
+- **Unit Commitment.** [Work in Progress...]
 
 <b>TLDR;</b> I aim to bridge machine learning with quantum algorithm design to make quantum optimization more scalable, robust, and ultimately impactful for real-world applications.
 
 Selected Publications
 ======
 <u><b>Quantum Era</b></u>
+
+* [Graph-Conditioned Meta-Optimizer for QAOA Parameter Generation on Multiple Problem Classes](http://nyquixt.github.io/files/qce26-paper1.pdf). <b>Kien X. Nguyen</b> and Ilya Safro. <i>arXiv</i>, 2026.
+
+* [Q3SAT-GPT: A Generative Model for Discovering Quantum Circuits for the 3-SAT Problem](http://nyquixt.github.io/files/qce26-paper2.pdf). Pratim Ugale, Ilya Tyagin, Karunya Shirali, <b>Kien X. Nguyen</b>, and Ilya Safro. <i>arXiv</i>, 2026.
 
 * [Cross-Problem Parameter Transferability in Quantum Approximate Optimization Algorithm: A Machine Learning Approach](http://nyquixt.github.io/files/qce25-paper.pdf). <b>Kien X. Nguyen</b>, Bao Bach, and Ilya Safro. <i>In Proceedings of the IEEE Quantum Computing and Engineering</i>, 2025.
 
