@@ -29,17 +29,19 @@ News
 
 What I'm Working On
 ======
-![title image](http://nyquixt.github.io/images/title.png "Title")
-
 My current research focuses on developing machine learning techniques to improve the quantum computing stack.
 - **Cross-Problem Setting for Quantum Approximate Optimization Algorithm (QAOA)**
+  ![title image](http://nyquixt.github.io/images/title.png "Title")
   - *Parameter transferability in QAOA.* A key challenge in scaling QAOA lies in finding good variational parameters, especially for hard instances. The goal is to build machine learning models that can learn transferable patterns from simple problem instances (i.e. from native unconstrained MaxCut) and generalize them to harder ones (i.e. constrained MIS), effectively minimizing expensive optimization.
   - *Problem-aware Graph Representation.* To aid the parameter generation for quantum circuit, a meaningful, problem-aware graph embedding is required to condition the machine learning meta-learner. The generalized Quadratic Programming formulation is used to generate a heterogeneous graph as the input to a HeteroGNN that learns to minimize the QP surrogate loss via unsupervised learning.
   - *Cross-Problem Parameter Generation for QAOA.* A meta-optimizer is trained to predict parameter trajectory for a QAOA circuit, conditioned on the problem-aware graph embedding. It is observed to achieve better performance that unconditioned meta-optimizer that often collapse to near-identical trajectories across instances.
 - **Quantum Compilation**
-  - *Qubit Routing on Quantum Device.* [Work in Progress...]
+  ![qap router image](http://nyquixt.github.io/images/qap-router.png "QAP-Router")
+  - *Qubit Routing on Quantum Device.* The NP-hard problem is viewed as a dynamic quadratic assignment problem. A QAP-solution-aware policy network is trained with a reinforcement learning framework where the QAP objective is integrated into the reward function.
   - *Qubit Assignment & Scheduling on Distributed Quantum Device.* [Work in Progress...]
-- **Unit Commitment.** [Work in Progress...]
+- **Application in Power Grid Systems.**
+  ![uc pce image](http://nyquixt.github.io/images/uc-pce.png "UC-PCE")
+  - *Time-dependent Unit Commitment.* To tackle the time-dependent Unit Commitment formulation, Pauli-Correlation Encoding is used for compact qubit representation. The variational quantum circuit is then optimized using a bi-level optimization procedure in a leader-follower structure.
 
 <b>TLDR;</b> I aim to bridge machine learning with quantum algorithm design to make quantum optimization more scalable, robust, and ultimately impactful for real-world applications.
 
