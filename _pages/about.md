@@ -15,6 +15,7 @@ I am a Ph.D. student in the Department of Computer & Information Sciences at Uni
 
 News
 ======
+* [Jul 2026] Two papers accepted to QCE'26
 * [Apr 2026] Joined Argonne National Lab as Research Aide
 * [Mar 2026] Passed Qualifying Exam :tada:
 * [Oct 2025] Rejoined Fujitsu Research of America Quantum Lab as Research Intern
@@ -31,7 +32,7 @@ What I'm Working On
 ======
 My current research focuses on developing machine learning techniques to improve the quantum computing stack.
 - **Cross-Problem Setting for Quantum Approximate Optimization Algorithm (QAOA)**
-  ![title image](http://nyquixt.github.io/images/title.png "Title")
+  ![title image](http://nyquixt.github.io/images/cross-problem.png "Title")
   - *Parameter transferability in QAOA.* A key challenge in scaling QAOA lies in finding good variational parameters, especially for hard instances. The goal is to build machine learning models that can learn transferable patterns from simple problem instances (i.e. from native unconstrained MaxCut) and generalize them to harder ones (i.e. constrained MIS), effectively minimizing expensive optimization.
   - *Problem-aware Graph Representation.* To aid the parameter generation for quantum circuit, a meaningful, problem-aware graph embedding is required to condition the machine learning meta-learner. The generalized Quadratic Programming formulation is used to generate a heterogeneous graph as the input to a HeteroGNN that learns to minimize the QP surrogate loss via unsupervised learning.
   - *Cross-Problem Parameter Generation for QAOA.* A meta-optimizer is trained to predict parameter trajectory for a QAOA circuit, conditioned on the problem-aware graph embedding. It is observed to achieve better performance that unconditioned meta-optimizer that often collapse to near-identical trajectories across instances.
@@ -49,7 +50,7 @@ Selected Publications
 ======
 <u><b>Quantum Era</b></u>
 
-* [Graph-Conditioned Meta-Optimizer for QAOA Parameter Generation on Multiple Problem Classes](http://nyquixt.github.io/files/qce26-paper1.pdf). <b>Kien X. Nguyen</b> and Ilya Safro. <i>arXiv</i>, 2026.
+* [Graph-Conditioned Meta-Optimizer for QAOA Parameter Generation on Multiple Problem Classes](http://nyquixt.github.io/files/qce26-paper1.pdf). <b>Kien X. Nguyen</b> and Ilya Safro. <i>In Proceedings of the IEEE Quantum Computing and Engineering</i>, 2026.
 
 * [Q3SAT-GPT: A Generative Model for Discovering Quantum Circuits for the 3-SAT Problem](http://nyquixt.github.io/files/qce26-paper2.pdf). Pratim Ugale, Ilya Tyagin, Karunya Shirali, <b>Kien X. Nguyen</b>, and Ilya Safro. <i>arXiv</i>, 2026.
 

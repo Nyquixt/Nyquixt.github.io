@@ -17,7 +17,7 @@ Education
 Research Experience
 ======
 * Research Assistant (AACS Lab, UDelaware. Jan 2025 - Present)
-  * Graph-conditioned Meta-Optimizer for QAOA Parameter Generation
+  * Graph-conditioned Meta-Optimizer for QAOA Parameter Generation [[QCE'26](https://arxiv.org/abs/2604.25275)]
   * QAOA Parameter Transferability from MaxCut to MIS [[QCE'25](https://arxiv.org/abs/2504.10733)]
 
 * Research Assistant (Deep-REAL, UDelaware. Aug 2021 - Dec 2024)
@@ -37,10 +37,10 @@ Work Experience
   * Distributed Quantum Compilation (work in progress)
 
 * Research Intern (Fujitsu Research, Oct 2025-Mar 2026)
-  * Quantum Computing for Unit Commitment (work in progress)
+  * Quantum Computing for Unit Commitment [[arXiv'26](https://arxiv.org/abs/2605.17145)]
 
 * Research Intern (Fujitsu Research, Jun 2025-Aug 2025)
-  * Machine Learning for Qubit Routing (work in progress)
+  * Machine Learning for Qubit Routing [[arXiv'26](https://arxiv.org/abs/2605.12365)]
 
 * Back-end Developer (TCU, Jun 2019 - May 2021)
   * [EurekaLabs](https://eurekalabs.net) is a hands on security learning platform that assisted students with open-source, easy-to-use and hands-on cybersecurity materials. It has attracted around 70K views on lab materials.
